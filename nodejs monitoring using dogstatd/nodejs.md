@@ -58,8 +58,9 @@ To connect to the server where you want to set up Datadog and Docker:
         next();
     });
     ```
-2. check from logs that function run using `pm2 logs`
+2. install hotshots library using `npm install hot-shots`  
 
+3. check from logs that function run using `pm2 logs`
 
 ![server output image](image.png)
 
